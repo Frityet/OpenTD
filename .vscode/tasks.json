@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "process",
+            "command": "xmake",
+            "args": [
+                "build",
+                "-v",
+                "-j16",
+                "-w"
+            ],
+        }
+    ]
+}
